@@ -65,7 +65,7 @@ def Mk_BarPlot(N,a, fig, ax): # Creates the histogram
   for i in range(len(m)):
     y[i*2] = Convert_Value(Compute_Value(m[i],N,P,Q),"Percentage")
     
-  #print(f"Debug tool {sum(y)}")     #Uncomment to check the sum of the probabilities is 100%
+  #print(f"Debug tool {sum(y)}")     #Uncomment to check that the sum of the probabilities is 100%
   
   x = [i for i in range(-N,N+1,1)]
   y = y
