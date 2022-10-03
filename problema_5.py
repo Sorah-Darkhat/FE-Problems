@@ -176,30 +176,8 @@ Solve_Problem(N,a,"iii")
 """                     Discussion                        """
 #############################################################
 
-""" 
-As we could see from the plots, as we increase the N, the binomial distribution starts being well described by a Gaussian distribution,
-this is quiet the phenomena, since this implies that we can calculate
-where a single particle will most likely be over time, the only
-thing we need to do, is say that n amount of steps of length l,
-happen in t seconds, then we just use N = nt, and create this simple distribution,
-from which we can find out where the particle should be at.
-However things could get interesting really quick,
-if we decide to expand this to a system under the same rules, and introducing any interaction using p and q
-we can then think we have something such as a singularity, a point alike range 
-that we can get to be smaller and smaller until we can approximate the extremes of the range to be around the same value,
-now if we decide that there's a large number of particles in this point alike range,
-we can predict how the system will evolve, therefore understanding the distribution of particles thorough the space.
-Nevertheless we can point out there's a slight difference 
-between the binomial distribution and the Gaussian distribution, this being due to the fact
-that there are 'forbidden' values of m, however this has already been
-discussed on the code's commentaries, and due to the fact that N may be far too small.
-If we neglect the missing values of m, we can try to create
-a relationship between the average error on the values
-of the binomial distribution and the Gaussian distribution,
-finding out an optimal starting N for a given P and Q, that allows us,
-to get an error inferior to some ε, from which we can use this model
-to predict how system will evolve with great certainty.
-
+"""
+Please Check The Homework.pdf file
 """
 
 
